@@ -6,8 +6,8 @@ html, body {
 
 /*
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  min-height: 100%;  Fallback for browsers do NOT support vh unit 
+  min-height: 100vh; These two lines are counted as one :-)       
 
   display: flex;
   align-items: center;
@@ -16,18 +16,27 @@ html, body {
 
 ul {
     list-style-type: none;
+    overflow: hidden;
     margin: 0;
     padding: 0;
+    background-color: #333;
+
 }
 
 li {
-    display: inline;
-    padding: 4px;
+    float: left;
 }
 
-a {
+li a {
     display: block;
-    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 div.toppanel ul.un-ord-top {
