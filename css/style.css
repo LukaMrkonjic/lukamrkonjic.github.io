@@ -24,28 +24,29 @@ h1, h1, h2, h3, h4, h5, h6, p {
 
 .sectHome {
     background-color: #ecf0f1;
-    background-image: url(../img/img1.jpg);
+    /*background-image: url(../img/img1.jpg);*/
 }
 
 .sectPortfolio {
     background-color: #34495e;
-    background-image: url(../img/img2.jpg);
+    /*background-image: url(../img/img2.jpg);*/
 }
 
 .sectAbout {
     background-color: #ecf0f1;
-    background-image: url(../img/img3.jpg);
+    /*background-image: url(../img/img3.jpg);*/
+    text-align: center;
 }
 
 .sectContact {
     background-color: #34495e;
-    background-image: url(../img/img4.jpg);
+    /*background-image: url(../img/img4.jpg);*/
 }
 
-.subSection {
+/*.subSection {
     height: 50%;
-    background-color: #ecf0f1;   
-}
+    background-color: gray;   
+}*/
 
 /* 
 (Note that CSS uses the prefix # for IDs and . for Classes.) 
