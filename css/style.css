@@ -56,7 +56,7 @@ header {
 	position: relative;
 	padding: 10px 30px;
 	border-radius: 2px;
-	margin: 50px 0px 0 40px; /* |---| 1 |---| 2 |---| */
+	margin: 50px 20px 0 20px; /* |---| 1 |---| 2 |---| */
 	outline: 0 !important;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -180,12 +180,12 @@ header {
 	margin: 0;
 }
 #hero .btn-wrapper {
+    text-align: center;
 	width: 500px;
 	/* width: 500px; */
 	margin: 0 auto;
 }
 #hero .btn {
-	float: left;
 }
 #message {
 	background-color: #f7f7f7;
